@@ -1,0 +1,124 @@
+.page
+{
+width:1500px;
+height:1000;
+border-style:none;
+}
+.headerpart
+{
+width:1500px;
+height:195px;
+border-style:groove;
+background-image:url('images/header.jpg');
+}
+.linkspart
+{
+width:1500px;
+height:30px;
+margin-top:6px;
+background-color:rgb(12,100,198);
+border-style:groove;
+
+}
+
+.linkspart a
+{
+ color:rgb(245,246,251);
+ text-decoration:none;
+}
+
+.linkspart a:hover
+{
+   background-color:rgb(245,246,251);
+   color:rgb(12,100,198);
+}
+.bodypart
+{
+width:1500px;
+height:1070px;
+border-style:none;
+margin-top:5px;
+
+}
+
+.bodypart .imagepart
+{
+width:450px;
+height:1070px;
+border-style:none;
+background-image:url('images/download1.jpg');
+backgroung-repeat:no-repeat;
+display:inline-block;
+float:left;
+}
+
+.bodypart .placements
+{
+width:682px;
+height:730px;
+font-size:18px;
+border-style:groove;
+
+}
+.bodypart .placements h2
+{
+color:green;
+margin-left:10px;
+}
+
+.bodypart .CSITachievements
+{
+width:685px;
+height:495px;
+border-style:inset;
+display:inline-block;
+}
+.bodypart .CSITachievements h3
+{
+color:green;
+margin-left:10px;
+}
+
+.bodypart .newspart
+{
+width:350px;
+height:270px;
+border-style:none;
+float:right;
+
+}
+.bodypart .newspart h2
+{
+color:green;
+margin-left:10px;
+}
+.bodypart .newspart h2.news
+{
+width:220px;
+height:500px;
+}
+
+.bodypart .CSITachievements .image
+{
+width:650px;
+height:180px;
+border-style:none;
+background-image:url('images/chat.jpg');
+
+}
+div .register{
+   background-color:rgba(0, 0,0,0.5);
+   font-size: 18px;
+   border-radius: 10px;
+   box-shadow:lpx solid rgba(255,255,255,0.3);
+   box-shadow:2px 2px 15px
+   rgba(0,0,0,0.3);
+   color:#fff;
+}
+form#register{
+   margin:40px;
+}
+label{
+   font-size: 18px;
+   font-style: italic;
+}
